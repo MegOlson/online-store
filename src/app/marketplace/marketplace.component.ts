@@ -25,6 +25,6 @@ export class MarketplaceComponent implements OnInit {
   }
 
   goToDetailPage(clickedAlbum: Album) {
-    this.router.navigate(['albums', clickedAlbum.id]);
+    // this.router.navigate(['albums', clickedAlbum.id]);
   };
 }
